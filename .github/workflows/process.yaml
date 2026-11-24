@@ -1,9 +1,9 @@
 name: Process
 on:
   schedule:
-    - cron: "05 03 * * *"→ Runs at 03:05
+    - cron: "05 03 * * *"
 
-    - cron: "05 11 * * *"→ Runs at 11:05
+    - cron: "05 11 * * *"
 
   workflow_dispatch:
 
